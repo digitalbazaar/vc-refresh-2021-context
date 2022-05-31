@@ -1,7 +1,7 @@
 {
-  "name": "context-template",
-  "version": "0.0.1",
-  "description": "Context template repository.",
+  "name": "vc-refresh-2021-context",
+  "version": "1.0.0",
+  "description": "Context for Verifiable Credentials Refresh 2021.",
   "main": "js/index.js",
   "module": "./dist/context.esm.js",
   "files": [
@@ -11,17 +11,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalbazaar/context-template"
+    "url": "https://github.com/digitalbazaar/vc-refresh-2021-context"
   },
   "bugs": {
-    "url": "https://github.com/digitalbazaar/context-template/issues"
+    "url": "https://github.com/digitalbazaar/vc-refresh-2021-context/issues"
   },
   "author": {
     "name": "Digital Bazaar, Inc.",
     "email": "support@digitalbazaar.com",
     "url": "https://digitalbazaar.com/"
   },
-  "homepage": "https://github.com/digitalbazaar/context-template#readme",
+  "homepage": "https://github.com/digitalbazaar/vc-refresh-2021-context#readme",
   "license": "BSD-3-Clause",
   "devDependencies": {
     "@babel/core": "^7.11.0",
