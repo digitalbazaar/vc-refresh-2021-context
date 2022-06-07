@@ -13,8 +13,14 @@ module.exports = {
       url: 'http://schema.org/url',
       validAfter: {'@id': 'refresh2021:validAfter', '@type': 'xsd:dateTime'},
       validUntil: {'@id': 'refresh2021:validUntil', '@type': 'xsd:dateTime'},
-      MediatedRefresh2021: 'refresh2021:MediatedRefresh2021',
-      UnmediatedRefresh2021: 'refresh2021:UnmediatedRefresh2021',
+      MediatedRefresh2021: {
+        '@id': 'refresh2021:MediatedRefresh2021',
+        '@type': '@id'
+      },
+      UnmediatedRefresh2021: {
+        '@id': 'refresh2021:UnmediatedRefresh2021',
+        '@type': '@id'
+      }
     }
   ]
 };
