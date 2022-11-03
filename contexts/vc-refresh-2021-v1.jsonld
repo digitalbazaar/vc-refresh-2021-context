@@ -11,8 +11,14 @@
         "@type": "@id",
         "@context": {
           "url": "http://schema.org/url",
-          "validAfter": {"@id": "refresh2021:validAfter", "@type": "xsd:dateTime"},
-          "validUntil": {"@id": "refresh2021:validUntil", "@type": "xsd:dateTime"}
+          "validAfter": {
+            "@id": "refresh2021:validAfter",
+            "@type": "xsd:dateTime"
+          },
+          "validUntil": {
+            "@id": "refresh2021:validUntil",
+            "@type": "xsd:dateTime"
+          }
         }
       },
       "UnmediatedRefresh2021": {
@@ -20,8 +26,14 @@
         "@type": "@id",
         "@context": {
           "url": "http://schema.org/url",
-          "validAfter": {"@id": "refresh2021:validAfter", "@type": "xsd:dateTime"},
-          "validUntil": {"@id": "refresh2021:validUntil", "@type": "xsd:dateTime"}
+          "validAfter": {
+            "@id": "refresh2021:validAfter",
+            "@type": "xsd:dateTime"
+          },
+          "validUntil": {
+            "@id": "refresh2021:validUntil",
+            "@type": "xsd:dateTime"
+          }
         }
       }
     }
