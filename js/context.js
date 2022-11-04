@@ -7,6 +7,8 @@ module.exports = {
   '@context': [
     'https://www.w3.org/2018/credentials/v1',
     {
+      '@version': 1.1,
+      '@protected': true,
       id: '@id',
       type: '@type',
       refresh2021: 'https://w3id.org/vc-refresh-2021#',
@@ -15,7 +17,6 @@ module.exports = {
         '@id': 'refresh2021:MediatedRefresh2021',
         '@type': '@id',
         '@context': {
-          url: 'http://schema.org/url',
           validAfter: {
             '@id': 'refresh2021:validAfter',
             '@type': 'xsd:dateTime'
@@ -30,7 +31,6 @@ module.exports = {
         '@id': 'refresh2021:UnmediatedRefresh2021',
         '@type': '@id',
         '@context': {
-          url: 'http://schema.org/url',
           validAfter: {
             '@id': 'refresh2021:validAfter',
             '@type': 'xsd:dateTime'
